@@ -1,25 +1,34 @@
 .navbar {
   position: fixed;
-  width:100%;
-  top:0;
+  width: 100%;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 4rem;
-  /* background-color: #0e6251; */
+  padding: 1rem 2rem; /* Reduce padding for smaller screens */
   background-color: #a85312;
-  color: #f4f6f7; /* Dark text for contrast */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  color: #f4f6f7;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
 }
 
 .navbar h2 {
   font-size: 1.5rem;
-  color: #f4f6f7; /* Blue color for brand name */
+  color: #f4f6f7;
 }
 
 .navbar ul {
   display: flex;
   list-style: none;
+  margin: 0;
 }
 
 .navbar li {
@@ -27,7 +36,7 @@
 }
 
 .navbar a {
-  color: #f4f6f7; /* Blue links */
+  color: #f4f6f7;
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.3s ease;
@@ -35,7 +44,52 @@
 
 .navbar a:hover {
   color: white;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px solid yellow;
   border-radius: 4px;
+}
+
+/* Responsive for tablets and smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .navbar li {
+    margin: 0.5rem 0;
+  }
+
+  .navbar a {
+    font-size: 1rem; /* Smaller font size for smaller screens */
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Responsive for mobile phones */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .logo, .navbar h2 {
+    font-size: 1.2rem; /* Smaller font size for the logo */
+  }
+
+  .navbar ul {
+    padding: 0;
+    margin-top: 0.5rem;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
 }
