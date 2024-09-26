@@ -1,17 +1,4 @@
-// import React from 'react';
-// import Styles from '../Styles/Contact.module.css';
 
-// const Contact = () => {
-//     return (
-//       <section id="contact" className={Styles.contactSection}>
-//         <h2>Contact Me</h2>
-//         <p>If you'd like to work together or have any questions, feel free to reach out!</p>
-//         <a href="mailto:aiman@example.com" className={Styles.contactBtn}>Email Me</a>
-//       </section>
-//     );
-//   }
-
-// export default Contact
 
 import React, { useState } from "react";
 import Styles from "../Styles/Contact.module.css";

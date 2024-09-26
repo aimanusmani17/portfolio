@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+
 function App() {
   const router = createBrowserRouter([
     {

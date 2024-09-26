@@ -21,7 +21,7 @@ const Projects = () => {
             or entertainment purposes.
           </p>
           <div className={Styles.cardBtn}>
-            <a href="" className={Styles.workBtn}>
+            <a href="https://github.com/aimanusmani17/Quizzfy-App" className={Styles.workBtn}>
               GitHub
             </a>
             <a href="" className={Styles.workBtn}>
@@ -39,7 +39,7 @@ const Projects = () => {
             moves in real-time.
           </p>
           <div className={Styles.cardBtn}>
-            <a href="" className={Styles.workBtn}>
+            <a href="https://github.com/aimanusmani17/TriwebAPI-Learning/tree/main/Projects/tictactoe/tic-tac-toe" className={Styles.workBtn}>
               GitHub
             </a>
             <a href="" className={Styles.workBtn}>
@@ -58,7 +58,7 @@ const Projects = () => {
             editing, and tracking to-do lists.
           </p>
           <div className={Styles.cardBtn}>
-            <a href="" className={Styles.workBtn}>
+            <a href="https://github.com/aimanusmani17/TriwebAPI-Learning/tree/main/Projects/MERN%20Todo%20App" className={Styles.workBtn}>
               GitHub
             </a>
             <a href="" className={Styles.workBtn}>
