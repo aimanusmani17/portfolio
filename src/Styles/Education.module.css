@@ -5,6 +5,10 @@
     padding: 2rem 4rem;
     background-color: #fdebd0;
   }
+  .para{
+    /* font-family: "Roboto", sans-serif; */
+    font-family: 'Oswald', sans-serif;;
+  }
   
   .sectionTitle {
    

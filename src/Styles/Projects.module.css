@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400;700&display=swap");
 
+/* Base Styles */
 .projectCards {
   background-color: white;
   border-radius: 8px;
   padding: 1.5rem;
   margin: 1rem 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #d39557; /* Updated background color */
+  background-color: #e9e6e3; /* Updated background color */
   border-radius: 1rem;
   padding: 2rem;
   max-width: 20rem;
@@ -20,16 +21,19 @@
 .projectCards:hover {
   transform: translateY(-5px); /* Subtle hover effect */
 }
+
 .projectSection {
   background-color: #ffd1ad;
   padding: 2rem 4rem;
-  /* display: flex; */
   justify-content: center;
 }
+
 .projectContainer {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
 }
+
 .header {
   font-size: 3rem;
   font-weight: bold;
@@ -37,31 +41,27 @@
   font-family: "Alegreya", serif;
   text-align: center;
 }
+
 .projectTitle {
-  /* font-size: 1.5rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-    color: #3a3737; */
   font-size: 1.7rem; /* Slightly increased font size */
   margin-bottom: 1rem;
   font-weight: 600;
   color: #3a3737;
-  /* text-align: center; */
 }
+
 .quizImg,
 .ticImg,
 .toDoImg {
   width: 7rem;
   margin-bottom: 1rem;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; Center the image vertically within the container */
 }
+
 .projectPara {
   font-family: "Edu+AU+VIC+WA+NT+Guides";
   height: 100px;
-  margin: 1rem 0rem 1rem 0rem;
+  margin: 1rem 0;
 }
+
 .workBtn {
   background-color: #ff7f50; /* Coral color for the button */
   color: white;
@@ -77,6 +77,7 @@
   display: inline-block;
   margin-top: 1rem;
 }
+
 .workBtn:hover {
   background-color: #ff6347; /* Darker coral on hover */
   transform: translateY(-3px); /* Slight lift on hover */
@@ -86,65 +87,88 @@
   color: steelblue;
   font-weight: bold;
 }
+
 .cardBtn {
-  /* display: flex; */
-  /* background-color: #4CAF50; Green button background */
-  color: white; /* Button text color */
+  color: white;
   border: none;
   border-radius: 8px;
-  padding: 0.75rem 1.5rem; /* Padding for button size */
-  font-size: 1rem; /* Font size for button text */
-  font-weight: bold; /* Bold button text */
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+  transition: background-color 0.3s ease, transform 0.3s ease;
   text-align: center;
-  display: inline-block;
-
   display: flex;
-  justify-content: space-around; /* Space buttons evenly in the horizontal line */
-  align-items: center; /* Align buttons horizontally */
-  gap: 1rem; /* Space between the buttons */
-  width: 100%; /* Ensure buttons span the width of the card */
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
   padding-bottom: 1rem;
 }
 
-/* .quizImg img, .ticImg img, .toDoImg img {
-  width: 100%;
-  height: auto; /* Maintain aspect ratio of the images */
-/* display: block; */
-/* }  */
-/* .quizImg >.ticImg> .toDoImg{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    max-width: 65rem;
-    width: 7rem;
-  } */
-/* .ticImg{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    max-width: 65rem;
-    width: 7rem;
-
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .projectCards {
+    max-width: 18rem; /* Reduce card size */
+    padding: 1.5rem;
   }
-  .toDoImg{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    max-width: 65rem;
-    width: 7rem; */
+}
 
-/* } */
-.projectCards {
-  background: #f9f9f9;
-  border-radius: 1rem;
-  padding: 1.5rem;
-  max-width: 20rem;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+@media (max-width: 992px) {
+  .projectContainer {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center;
+  }
+
+  .projectSection {
+    padding: 2rem; /* Reduce padding */
+  }
+
+  .header {
+    font-size: 2.5rem; /* Adjust header font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .projectCards {
+    max-width: 100%; /* Allow card to take full width */
+    padding: 1rem; /* Adjust padding */
+  }
+
+  .workBtn {
+    font-size: 0.9rem; /* Slightly smaller button text */
+    padding: 0.6rem 1rem;
+  }
+
+  .projectTitle {
+    font-size: 1.5rem; /* Reduce title size for smaller screens */
+  }
+
+  .header {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .projectCards {
+    max-width: 100%;
+    padding: 0.75rem; /* Adjust padding */
+  }
+
+  .workBtn {
+    font-size: 0.8rem; /* Smaller button text */
+    padding: 0.5rem 0.8rem;
+  }
+
+  .projectTitle {
+    font-size: 1.4rem; /* Further reduce title size */
+  }
+
+  .header {
+    font-size: 1.8rem; /* Smaller header */
+  }
+
+  .projectPara {
+    height: auto; /* Allow paragraph to expand as needed */
+  }
 }

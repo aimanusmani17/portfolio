@@ -12,7 +12,9 @@
   .main{
     width: 100%;
   }
-
+.content{
+  width:100%;
+}
  
   .skills-section, .projects-section, .contact-section {
     padding: 4rem 2rem;

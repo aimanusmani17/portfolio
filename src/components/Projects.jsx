@@ -6,7 +6,7 @@ import project3 from "../assets/productivity.png";
 
 const Projects = () => {
   return (
-    <section id={Styles.projectsSection} className={Styles.projectSection}>
+    <section id="projects" className={Styles.projectSection}>
       <h2 className={Styles.header}>My Projects</h2>
       <div className={Styles.projectContainer}>
         <div className={Styles.projectCards}>

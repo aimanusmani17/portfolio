@@ -22,7 +22,7 @@ const ContactMe = () => {
   };
 
   return (
-    <section className={Styles.contactSection}>
+    <section id="contact"className={Styles.contactSection}>
       <div>
         <h1 className={Styles.contactHeading}>Let's Connect</h1>
       </div>

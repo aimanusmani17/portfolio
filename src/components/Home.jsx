@@ -13,12 +13,14 @@ import Education from '../components/Education';
 const Home = () => {
   return (
     <div className={Styles.main}>
+      <div className={Styles.content}>
       <Navbar />
       <DetailSection />
       <Skills />
       <Projects />
       <Education />
       <Contact />
+      </div>
       <div>
       <footer className={Styles.footer}>
         Copyright &#169; 2024 Aiman Usmani. All right received.
