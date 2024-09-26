@@ -83,7 +83,7 @@
 }
 
 .skillCard {
-  background-color: #cabdbb; 
+  background-color: #f1f1f1; 
   border: 1px solid #ddd; /* Light border */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
