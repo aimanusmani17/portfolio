@@ -1,0 +1,63 @@
+.educationExperience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 4rem;
+    background-color: #fdebd0;
+  }
+  
+  .sectionTitle {
+   
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Alegreya', serif; 
+    text-align: center;
+  }
+  
+  .eduSection, .expSection {
+    width: 100%;
+    max-width: 100rem;
+    margin-bottom: 2rem;
+    
+  }
+  
+  .eduItem, .expItem {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .eduItem h3, .expItem h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .eduItem p, .expItem p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.3rem 0;
+  }
+  
+  .eduItem strong, .expItem strong {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .eduSection, .expSection {
+      padding: 1rem;
+    }
+  
+    .eduItem h3, .expItem h3 {
+      font-size: 1.3rem;
+    }
+  
+    .eduItem p, .expItem p {
+      font-size: 0.9rem;
+    }
+  }
+  

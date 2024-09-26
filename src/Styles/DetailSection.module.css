@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap");
+
+.heroSection {
+  text-align: center;
+  padding: 2rem 4rem;
+  /* background-color: #f7dc6f ; */
+  background-color: #ffc498;
+  color: white;
+}
+.myGif {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px;
+  background-color: black; /* Black background */
+  border-radius: 50%; /* Circular shape */
+  object-fit: cover; /* Ensures the video fits within the circle */
+  overflow: hidden; /* Ensures the content stays inside the circle */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Optional: Adds a shadow around the video */
+}
+
+.heroSection h1 {
+  font-family: "Alegreya", serif; /* Apply Alegreya font */
+  font-size: 3rem; /* Adjust the font size */
+  font-weight: 700; /* Bold version of the font */
+  color: #333; /* Dark text color */
+  letter-spacing: 1px; /* Space between letters */
+  margin-bottom: 20px; /* Space below heading */
+  line-height: 1.2; /* Line height for better readability */
+}
+
+.heroSection p {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  font-family: "Pacifico", cursive; /* Apply Pacifico font */
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  color: #333; /* Dark text color */
+  line-height: 1.6; /* Set line height for readability */
+  margin-top: 20px; /* Add some space above the paragraph */
+  margin-bottom: 20px; /* Add some space below the paragraph */
+  text-align: center; /* Center-align the paragraph */
+}
+
+.heroBtn {
+  background-color: #ba4a00;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+}
+.downloadBtn {
+  font-size: 1.2rem; /* Set the font size */
+  font-weight: 600; /* Semi-bold text */
+  padding: 10px 20px; /* Padding for the button */
+  color: #fff; /* Text color */
+  background-color: #28a745; /* Green background color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover */
+}
+
+.downloadBtn:hover {
+  background-color: #218838; /* Darken the green on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.downloadBtn:active {
+  background-color: #1e7e34; /* Even darker green when the button is clicked */
+  transform: scale(0.98); /* Slightly shrink the button when clicked */
+}
+
+.downloadBtn:focus {
+  outline: none; /* Remove the outline when the button is focused */
+}
+.socialIcon {
+  width: 30px;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.socialIcon:hover {
+  transform: scale(1.1);
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}

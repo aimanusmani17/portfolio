@@ -1,0 +1,123 @@
+/* /* .skillsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .skill {
+    background-color: #61dafb;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+
+  .skillsSection{
+
+  }
+
+  .skillsHeader{
+    text-align: center;
+    margin: 2rem;
+  } */
+
+  /* .skillsSection {
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    /* text-align: center; Center text */
+/* }  */
+
+/* .skillsHeader {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: 'Alegreya', serif; /* Use the Alegreya font or any desired font */
+/* } */
+
+/* .skillsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* .skillSet {
+    margin-bottom: 30px; /* Space between skill sets */
+/* }  */
+
+/* .category {
+    font-size: 1.8rem;
+    font-weight: 700; /* Bold category titles */
+    /* margin-bottom: 10px;
+    color: #333; /* Dark text color */
+/* }  */
+
+/* .skillList {
+    list-style: none; /* Remove default list styling */
+    /* padding: 0; Remove padding */
+/* } */
+
+/* .skillItem {
+    font-size: 1.2rem;
+    margin: 5px 0; /* Space between items */
+    /* color: #555; Slightly lighter text color */
+/* }   */
+
+.skillsSection {
+  padding: 40px 20px;
+  background-color: #FFBE98;
+  /* background-color: #EDA268 ; Light background for contrast */
+  text-align: center; /* Center text */
+  text-align: center;
+}
+
+.skillsHeader {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: 'Alegreya', serif; /* Use the Alegreya font or any desired font */
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of cards */
+  justify-content: center; /* Center cards */
+}
+
+.skillCard {
+  background-color: #cabdbb; 
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 300px; /* Fixed width for the cards */
+  margin: 20px; /* Margin around cards */
+  padding: 20px; /* Padding inside the card */
+  transition: transform 0.2s; /* Animation for hover */
+}
+
+.skillCard:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.skillImage {
+  width: 9rem ;/* Full width image */
+  height: 9rem; /* Maintain aspect ratio */
+  border-radius: 5px; /* Rounded corners for the image */
+  margin-bottom: 15px; /* Space below the image */
+}
+
+.category {
+  font-size: 1.8rem;
+  font-weight: 700; /* Bold category titles */
+  margin-bottom: 10px;
+  color: #333; /* Dark text color */
+}
+
+.skillList {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+.skillItem {
+  font-size: 1.2rem;
+  margin: 5px 0; /* Space between items */
+  color: #555; /* Slightly lighter text color */
+}
+

@@ -1,0 +1,120 @@
+/* Contact section background and layout */
+.contactSection {
+  background-color: #ffdcc2;
+  padding: 2rem 4rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.contactHeading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: "Alegreya", serif;
+  text-align: center;
+}
+
+.taglineContainer {
+  /* display: flex; */
+}
+
+/* Tagline Styling */
+.tagline {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  font-family: "Alegreya", serif;
+}
+
+/* Contact Form Layout */
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* background-color: #FFDCC2; */
+}
+
+/* Input Group Styling */
+.inputGroup {
+  margin-bottom: 1.5rem;
+  text-align: left;
+  width: 100%;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus effect on input fields */
+.inputGroup input:focus,
+.inputGroup textarea:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+}
+
+/* Textarea for message */
+.inputGroup textarea {
+  resize: none;
+  height: 150px;
+}
+
+/* Submit Button Styling */
+.submitButton {
+  background-color: #3498db;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #2980b9;
+  transform: translateY(-3px);
+}
+
+.submitButton:active {
+  background-color: #2c3e50;
+  transform: translateY(0);
+}
+
+/* Media Query for Mobile Responsiveness */
+@media (max-width: 600px) {
+  .tagline {
+    font-size: 2rem;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+}
+
+.contactForm {
+
+  flex: 1;
+  padding: 1rem;
+  background-color: grey;
+  border-radius: 24px;
+  max-width: 500px; 
+}

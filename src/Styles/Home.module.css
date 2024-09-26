@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+
+ 
+  .skills-section, .projects-section, .contact-section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .footer{
+    background-color: #D17857;
+    height: 2rem;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+ 
+  
+
+  
+ 
+  

@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  /* background-color: #0e6251; */
+  background-color: #a85312;
+  color: #f4f6f7; /* Dark text for contrast */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.navbar h2 {
+  font-size: 1.5rem;
+  color: #f4f6f7; /* Blue color for brand name */
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin-left: 1.5rem;
+}
+
+.navbar a {
+  color: #f4f6f7; /* Blue links */
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: white;
+  padding: .5rem;
+  border: 1px solid yellow;
+  border-radius: 4px;
+}

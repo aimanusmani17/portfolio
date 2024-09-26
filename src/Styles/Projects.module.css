@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400;700&display=swap");
+
+.projectCards {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #d39557; /* Updated background color */
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 20rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow for a modern look */
+  transition: transform 0.3s ease;
+  margin: 1rem; /* Added margin for spacing between cards */
+  justify-content: space-between;
+}
+
+.projectCards:hover {
+  transform: translateY(-5px); /* Subtle hover effect */
+}
+.projectSection {
+  background-color: #ffd1ad;
+  padding: 2rem 4rem;
+  /* display: flex; */
+  justify-content: center;
+}
+.projectContainer {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: "Alegreya", serif;
+  text-align: center;
+}
+.projectTitle {
+  /* font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #3a3737; */
+  font-size: 1.7rem; /* Slightly increased font size */
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #3a3737;
+  /* text-align: center; */
+}
+.quizImg,
+.ticImg,
+.toDoImg {
+  width: 7rem;
+  margin-bottom: 1rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; Center the image vertically within the container */
+}
+.projectPara {
+  font-family: "Edu+AU+VIC+WA+NT+Guides";
+  height: 100px;
+  margin: 1rem 0rem 1rem 0rem;
+}
+.workBtn {
+  background-color: #ff7f50; /* Coral color for the button */
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem; /* Spacing inside the button */
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  text-align: center;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.workBtn:hover {
+  background-color: #ff6347; /* Darker coral on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+.techStack {
+  color: steelblue;
+  font-weight: bold;
+}
+.cardBtn {
+  /* display: flex; */
+  /* background-color: #4CAF50; Green button background */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem; /* Padding for button size */
+  font-size: 1rem; /* Font size for button text */
+  font-weight: bold; /* Bold button text */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+  text-align: center;
+  display: inline-block;
+
+  display: flex;
+  justify-content: space-around; /* Space buttons evenly in the horizontal line */
+  align-items: center; /* Align buttons horizontally */
+  gap: 1rem; /* Space between the buttons */
+  width: 100%; /* Ensure buttons span the width of the card */
+  padding-bottom: 1rem;
+}
+
+/* .quizImg img, .ticImg img, .toDoImg img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio of the images */
+/* display: block; */
+/* }  */
+/* .quizImg >.ticImg> .toDoImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 65rem;
+    width: 7rem;
+  } */
+/* .ticImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 65rem;
+    width: 7rem;
+
+  }
+  .toDoImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 65rem;
+    width: 7rem; */
+
+/* } */
+.projectCards {
+  background: #f9f9f9;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  max-width: 20rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
