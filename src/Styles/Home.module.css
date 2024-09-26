@@ -9,7 +9,9 @@
     background-color: #f0f0f0;
     color: #333;
   }
-  
+  .main{
+    width: 100%;
+  }
 
  
   .skills-section, .projects-section, .contact-section {
